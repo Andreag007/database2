@@ -1,8 +1,8 @@
 <?php
 $server   = "localhost";
-$database = "NULL";
-$username = "NULL";
-$password = "NULL";
+$database = "andreasa_book";
+$username = "andreasa_bookex";
+$password = "Intothewild97";
 $conn = mysqli_connect($server, $username, $password, $database);
 if (!$conn) {
     echo "Error: Unable to connect to database. ";
